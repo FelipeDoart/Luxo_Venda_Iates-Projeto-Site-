@@ -1,0 +1,225 @@
+/* Mod - Página */
+body{
+    background-color: gray;
+}
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+#geral {
+    background-color: white;
+    border: 1px solid rgb(51, 146, 214);
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Topo */
+
+#barco0 {
+    position: relative;
+}
+
+#topo {
+    background-color: #21272B;
+    height: 120px;
+
+}
+.div2 {
+    background-color: #EBEBEB;
+}
+h1 {font-size: 32px;
+    color: #1BB4E8;
+    font-family:'Times New Roman', Times, serif;    
+    position: relative;
+    left:  88px;
+    bottom: 60px;
+    display: inline;
+}
+h2 {font-size: 32px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+    display: inline;
+}
+#timagem {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 55px;
+}
+
+/* Menu */ 
+#menu {
+    position: relative;
+    bottom: 45px;
+}
+ul {
+    
+    display: flex;
+    justify-content: flex-end;
+}
+li {
+    list-style: none;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-right: 1px solid white;
+}
+li#CT {
+    margin-right: 15px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Propaganda */
+
+#propaganda {
+    position: relative;
+    bottom: 260px;
+    left: 550px;
+    background-color: rgba(26, 50, 67, 0.91);
+    width: 378px;
+    height: 179px;
+    
+}
+#prop {
+    transform: scale(1.5);
+    position: relative;
+    left: 120px;
+    top: 30px;
+}
+#textotl {
+    
+    transform: scale(1.1);
+    position: relative;
+    left: 70px;
+    top: 25px;
+}
+#tlf {
+    color:  #C6B07F;
+    position: relative;
+    left: 119px;
+    top: 8px;
+}
+#barco2 {
+    position: relative;
+    top: 65px;
+    width: 25px;
+    left: 18px;
+}
+
+
+/* Conjunto das duas*/
+
+#conjunto-tabela{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 170px;
+}
+
+
+/* Primeira Tabela */
+.div4{
+    background-color: #1BB4E8 ;
+}
+#tabela1{
+    margin-left: 20px;
+    width: 455px;
+    height: 426px;
+}
+#destino {
+    display: flex;
+    position: relative;
+    width: 455px;
+}
+h3 {
+    color: white;
+    font-family: serif;
+    font-style: italic;
+    font-size: 29px;
+    position: absolute;
+    top: 3px;
+    left: 45px;
+}
+p#tabela-titulo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p#textodestino {
+    margin-bottom: 40px;
+}
+
+/* Segunda Tabela */
+#tabela2 {
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    width: 455px;
+}
+.div5{
+    background-color: #C6B07F;
+}
+#tabela2-titulo{
+    display: flex;
+    position: relative;
+    width: 455px;
+    height: 45px;
+}
+h4 {
+    position: relative;
+    top: 5px;
+    margin-left: 10px;
+    color: white;
+    font-family: serif;
+    font-style: italic;
+    font-size: 29px;
+}
+#titulofrota {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p#textofrota{
+    margin-bottom: 40px;
+}
+#frota {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+}
+
+.asd {
+    width: 49.5%;
+    height: 110px;
+}
+
+/*
+#conjunto-imagens {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}*/
+
+/* Parte do fundo */
+.div7{
+    background-color:rgba(226, 215, 215, 0.911);
+}
+#fundo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Imagens */
+
